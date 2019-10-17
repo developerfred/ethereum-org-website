@@ -12,7 +12,7 @@ sidebar: auto
 sidebarDepth: 1
 ---
 
-# Developer Resources
+# Ethereum for Developers
 
 <div class="featured">Guides, resources, and tools for developers building on Ethereum.</div>
 
