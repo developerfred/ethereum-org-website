@@ -47,7 +47,6 @@ module.exports = {
         var _paq = window._paq || [];
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(['setCookieDomain', '*.ethereum.org']);
-        _paq.push(['setDomains', ['*.ethereum.org']]);
         _paq.push(['trackPageView']);
         _paq.push(['enableLinkTracking']);
         (function() {
