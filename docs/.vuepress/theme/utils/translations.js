@@ -22,12 +22,12 @@ const translations = {
     'page-home-section-use-item-three': 'What\'s a wallet?', // TODO remove for all langs
     'page-home-section-use-item-three-link': '/use/#_3-what-is-a-wallet-and-which-one-should-i-use', // TODO remove for all langs
     'page-home-section-individuals-title': 'For Individuals',
-    'page-home-section-individuals-item-one': 'How does Ethereum work?',
-    'page-home-section-individuals-item-one-link': '/individuals/',
-    'page-home-section-individuals-item-two': 'What can I do with Ethereum today?',
-    'page-home-section-individuals-item-two-link': '/individuals/#use-an-application-built-on-ethereum',
-    'page-home-section-individuals-item-three': 'How do I get Ether?',
-    'page-home-section-individuals-item-three-link': '/individuals/#what-is-eth-and-how-do-i-get-it',
+    'page-home-section-individuals-item-one': 'What is Ethereum?',
+    'page-home-section-individuals-item-one-link': '/beginners/',
+    'page-home-section-individuals-item-two': 'Use Ethereum',
+    'page-home-section-individuals-item-two-link': '/use/',
+    'page-home-section-individuals-item-three': 'Guides & Resources',
+    'page-home-section-individuals-item-three-link': '/learn/',
     'page-home-section-learn-title': 'Learn',
     'page-home-section-learn-item-one': 'Beginner resources',
     'page-home-section-learn-item-one-link': '/learn/#ethereum-basics',
@@ -40,7 +40,7 @@ const translations = {
     'page-home-section-developers-item-one-link': '/developers/#getting-started',
     'page-home-section-developers-item-two': 'Learn to program smart contracts',
     'page-home-section-developers-item-two-link': '/developers/#smart-contract-languages',
-    'page-home-section-developers-item-three': 'Find the latest developer tools',
+    'page-home-section-developers-item-three': 'Latest developer tools',
     'page-home-section-developers-item-three-link': '/developers/#developer-tools',
     'page-home-section-enterprise-title': 'For Enterprise',
     'page-home-section-enterprise-item-one': 'Why Enterprise Ethereum?',
@@ -50,7 +50,8 @@ const translations = {
     'page-home-section-enterprise-item-three': 'Enterprise Developer Community',
     'page-home-section-enterprise-item-three-link': '/enterprise/#enterprise-developer-community',
     'page-beginners': 'Beginners', // TODO remove
-    'page-use': 'Individuals', // TODOD update key to 'page-indivduals' when rolled across languages
+    'page-use': 'Use', // TODOD update key to 'page-indivduals' when rolled across languages
+    'page-individuals': 'Individuals',
     'page-learn': 'Learn', // TODO remove
     'page-enterprise': 'Enterprise', // TODO add for other languages
     'page-developers': 'Developers'
