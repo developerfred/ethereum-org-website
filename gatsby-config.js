@@ -17,7 +17,10 @@ module.exports = {
     defaultLanguage,
     supportedLanguages,
   },
+  pathPrefix: `__GATSBY_IPFS_PATH_PREFIX__`,
   plugins: [
+    // Support IPFS deploy
+    `gatsby-plugin-ipfs`,
     // Replace markdown links w/ Gatsby <Link/>
     // This avoids page refreshes
     `gatsby-plugin-catch-links`,
